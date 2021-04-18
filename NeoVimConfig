@@ -1,0 +1,32 @@
+"add from site
+https://jdhao.github.io/2018/12/24/centos_nvim_install_use_guide_en/
+
+"from nvimconfig
+call plug#begin('~/.local/share/nvim/plugged')
+Plug 'vim-airline/vim-airline-themes'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
+
+let g:airline_theme='dark theme with a regular font' " <theme> is a valid theme name
+
+
+
+syntax on 
+set nu
+set path=.,**
+set backspace=indent,eol,start
+set hidden
+set noerrorbells
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set nowrap
+set smartcase
+set nobackup
+set noswapfile
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
