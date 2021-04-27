@@ -5,3 +5,5 @@ Check the url of that remote, with:
 git remote get-url origin
 if it was an http address , then change it to an ssh url using the following cmd:
 git remote set-url origin git@github.com:username/repository-name
+
+https://gist.github.com/developius/c81f021eb5c5916013dc
