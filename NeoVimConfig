@@ -1,5 +1,7 @@
 "add from site
 https://jdhao.github.io/2018/12/24/centos_nvim_install_use_guide_en/
+" Windows instructin
+https://jdhao.github.io/2018/11/15/neovim_configuration_windows/
 
 "from nvimconfig
 call plug#begin('~/.local/share/nvim/plugged')
